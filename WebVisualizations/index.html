@@ -10,12 +10,9 @@
     <div class="row">
       <div class="col-12">
         <nav class="navbar navbar-dark bg-dark">
-         <a class="navbar-brand" href="#">Latitude-Attitude</a>
+         <a class="navbar-brand" href="index.html">Latitude-Attitude</a>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
@@ -39,32 +36,26 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-8">
-  <font size="5">
-  <P ALIGN=Center>
-      <h1>Summary: Latitude vs. X</h1>
-  <P ALIGN=Center>
-  <P ALIGN=Center>
-  <img src="../Visualizations/temp_vs_lat.png" hspace="10" vspace="10" align="right">
-  <P ALIGN=Left>&nbsp; &nbsp; &nbsp; &nbsp; The purpose of this project was to analyze the way weather patterns change with latitude. We first ran an API query to openweathermap using a list of 500 cities, generated from a list of random coordinates.</P><br>
-  <P ALIGN=Left>&nbsp; &nbsp; &nbsp; &nbsp; Using this dataset, we applied Matplotlib to generate visualizations. We looked for any patterns in temperature, humidity, cloudiness, and wind relative to latitude, first over the whole globe, then divided into Northern and Southern Hemisphere.</P>
+      <div class="col-md-8">
+        <font size="5">
+        <P ALIGN=Center>
+          <h1>Summary: Latitude vs. X</h1>
+        <P ALIGN=Center>
+        <img src="../Visualizations/temp_vs_lat.png" hspace="10" vspace="10" align="left">
+         <P ALIGN=Left>&nbsp; &nbsp; &nbsp; &nbsp; The purpose of this project was to analyze the way weather patterns change with latitude. We first ran an API query to open weather map using a list of 500 cities, generated from a list of random coordinates.</P><br>
+          <P ALIGN=Left>&nbsp; &nbsp; &nbsp; &nbsp; Using this dataset, we applied Matplotlib to generate visualizations. We looked for any patterns in temperature, humidity, cloudiness, and wind relative to latitude, first over the whole globe, then divided into Northern and Southern Hemisphere.</P>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <--! Visualizations Box -->
+        <div class="col-md-4">
           <p><h1>Visualizations</h1></p>
           <p>Click on any chart for further analysis</p>
           <a href="temp_viz.html"><img src="../Visualizations/temp_vs_lat.png"></a>
           <a href="humid_viz.html"><img src="../Visualizations/humid_vs_lat.png"></a>
           <a href="cloud_viz.html"><img src="../Visualizations/cloud_vs_lat.png"></a>
           <a href="wind_viz.html"><img src="../Visualizations/wind_vs_lat.png"></a>
-        </div>
       </div>
     </div>
+  </div>
 </BODY>
 </html>
