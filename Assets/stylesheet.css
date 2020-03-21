@@ -7,6 +7,11 @@ p {
     text-align: right;
   }
 
-  a {
+a {
     color: green;
   }
+
+#imageNav-area {
+  width: 100%;
+  background-color: white;
+}
