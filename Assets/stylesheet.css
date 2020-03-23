@@ -2,6 +2,10 @@ body {
     background-color:#deb887;
   }
 
+h5 {
+  text-align: center
+}
+
 p {
     margin: auto;
     text-align: right;
